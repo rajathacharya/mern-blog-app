@@ -76,10 +76,10 @@ npm run dev
 ### 🌐 Environment Variables
 Inside blog-api/.env
 ```bash
-cd blog-api
-npm install
-# Add your MongoDB URI and JWT secrets to .env
-npm run dev
+MONGO_URI=your_mongodb_connection_string
+JWT_SECRET=your_secret_key
+JWT_REFRESH_SECRET=your_refresh_secret
+PORT=5000
 ```
 
 
